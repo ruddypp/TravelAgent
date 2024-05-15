@@ -70,7 +70,7 @@ padding: 0;
 .form-wrap {
     background-color: grey;
     height: 550px;
-    width: 400px;
+    min-width: 400px;
     text-align: center;
     color: rgb(31, 31, 63);
     border-radius: 5px;
@@ -92,7 +92,7 @@ input[type="text"] {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-    width: 300px;
+    min-width: 300px;
 }
 
 input[type="email"] {
@@ -103,7 +103,7 @@ input[type="email"] {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-    width: 300px;
+    min-width: 300px;
 }
 
 /* Edit input submit */
@@ -114,7 +114,7 @@ input[type="submit"] {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-    width: 300px;
+    min-width: 300px;
 }
 
 /* Edit select */
@@ -126,7 +126,7 @@ select {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-    width: 300px;
+   min-width: 300px;
 }
 .libur{
     margin-left: 12%;
@@ -174,3 +174,51 @@ margin-left:3%;
     grid-gap: 20px;
 
 }
+
+
+@media screen and (max-width: 768px) {
+
+ .wrap{
+    flex-direction: column;
+ }
+    aside .form-wrap{
+    max-width: 250px;
+    justify-content: center;    
+    margin-left: 10%;
+               
+    }
+    aside .form-wrap .input[type="text"]{
+        max-width: 200px;
+    }
+
+    .ul-nav{
+        align-items: center;
+        justify-content: center;
+        font-size: 9px;
+        font-weight: bold;
+        padding: 5px;
+        max-height: 50px;
+    }
+    .ul-nav .home{
+        padding: 3px 5px 3px 5px ;
+    }
+    article .h1-close{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .wrap article .gambar1{
+        max-width: 400px;
+        max-height: 300px;
+    }
+
+    .article-2 pre{
+        font-size: 12px;
+    }
+    footer{
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+
+

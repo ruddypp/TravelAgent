@@ -19,7 +19,7 @@
     
                 <div class="menu">
                     <ul class="ul-nav">
-                        <li><a href="#">Home</a></li>
+                        <li class="home"><a href="#">Home</a></li>
                         <li><a href="#">Our Package</a></li>
                         <li><a href="#">Contact Us</a></li>
                     </ul>
@@ -48,30 +48,30 @@
             <div class="form-wrap">
                 <div class="tulisan">
                     <h3>Contact Us</h3>
-                    <div>We immediatly contact you <br> after submit data</div>
+                    <p>We immediately contact you after submitting data.</p>
                 </div>
                     
                 <form action="#" class="form">
-                    <div class="nama">
-                        <label for="nama">Your Name:</label> <br>
-                        <input type="text" id="nama" name="nama" placeholder="First and Last Name"><br><br>
+                    <div class="form-group">
+                        <label for="nama">Your Name:</label>
+                        <input type="text" id="nama" name="nama" placeholder="First and Last Name">
                     </div>
                             
-                    <div class="email">
-                        <label for="email">Email Address:</label> <br>
-                        <input type="email" id="email" name="email" placeholder="example@gmail.com"><br><br>
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com">
                     </div>
                           
-                    <div class="option">
-                        <label for="interested">What are you interested in?</label><br>
+                    <div class="form-group">
+                        <label for="interested">What are you interested in?</label>
                         <select id="interested" name="interested" required>
                             <option value="" disabled selected>Select Option</option>
                             <option value="Bermain bola">Bermain bola</option>
                             <option value="Bermain basket">Bermain basket</option>
                             <option value="Bermain tenis">Bermain tenis</option>
-                        </select><br><br>
+                        </select>
                     </div>
-                    <div class="submit">
+                    <div class="form-group">
                         <input type="submit" value="SEND">
                     </div>
                 </form>
@@ -259,8 +259,8 @@
 <hr style="color: grey;">
 <section>
 <article>
-    <h1 style="display: flex; justify-content: center; align-items: center; padding-top: 30px;padding-bottom: 30px;font-size: 33px;">Your Closing Argument Headline</h1>
-    <p style="display: flex; justify-content: center; align-items: center;text-align: center; padding-bottom: 60px; color: gray; font-size: 12px;">
+    <h1 class="h1-close" style="display: flex; justify-content: center; align-items: center; padding-top: 30px;padding-bottom: 30px;font-size: 33px;">Your Closing Argument Headline</h1>
+    <p class="p-close" style="display: flex; justify-content: center; align-items: center;text-align: center; padding-bottom: 60px; color: gray; font-size: 12px;">
         Lorem ipsum dolor sit amet consectetur adipisicing
         elit. Saepe, nisi. Dolores sapiente <br> mollitia 
         officiaesse ratione nobis saepe delectus porro.</p>
@@ -277,10 +277,10 @@
 <!-- End Main -->
 
 <!-- Footer -->
-<div style="text-align: center; margin-top: 40px; display: flex; align-items: center; justify-content: center; text-align: center;
+<footer style="text-align: center; margin-top: 40px; display: flex; align-items: center; justify-content: center; text-align: center;
 padding-bottom: 30px;">
     <p>&copy; 2024 Rudy Paningal. Hak Cipta Dilindungi Undang-Undang.</p>
-</div>
+</footer>
     <!-- JavaScript -->    
     <script src="js/script.js"></script>
 </body>
